@@ -1,6 +1,4 @@
-*{
-    /* left:0%; */
-}
+
 body{
     background: yellow;
     /* margin:0 auto; */
@@ -78,6 +76,10 @@ body{
     /* margin:10px; */
     border-radius:5%;
 }
+.boxarea h4:hover{
+    color:#8D0303;
+}
+
 
 
 .imgarea{
@@ -167,7 +169,7 @@ body{
 .slidearea2 .carousel-inner  h6{
     /* width:100%; */
     position:absolute;
-    bottom:5%;
+    bottom:1%;
     padding:5px 50px;
     background:white;
     z-index:100;
