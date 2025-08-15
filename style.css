@@ -50,7 +50,7 @@ body{
     content:" |";
 }
 .xyz a:last-child:after{
-    content:"| ";
+    content:"  |";
 }
 .xyz h6{
     padding:10px 8px;
@@ -59,6 +59,10 @@ body{
     background:#A12C2F;
     margin-bottom: 0px;
 }
+.xyz h6:hover{
+    background:rgb(185, 56, 56);
+}
+
 /* .{
     border:3px solid black;
 } */
@@ -72,6 +76,8 @@ body{
     /* border:solid 3px black; */
 }
 .menuarea .navbar li a{
+    color:#800000 !important;
+
     gap: 10px !important;
 }
 
