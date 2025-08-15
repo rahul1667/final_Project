@@ -62,6 +62,25 @@ body{
 /* .{
     border:3px solid black;
 } */
+.menuarea{
+    /* background:red; */
+}
+.menuarea .navbar{
+    width:100%;
+    font-weight: bold;
+    background:transparent !important;
+    /* border:solid 3px black; */
+}
+.menuarea .navbar li a{
+    gap: 10px !important;
+}
+
+.menuarea .navbar li a:hover{
+    text-decoration:  underline;
+    text-decoration-color: white ;
+}
+
+
 
 
 .slidearea{
