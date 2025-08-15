@@ -8,11 +8,13 @@ body{
     padding:15px;
 
 }
-.toparea img{
-    width:100%;
-    height:auto;
+.toparea img .logo2{
+    width: 240px;;
+    height:82px;
 }
 .img1{
+    height:89px;
+    width:96px;
     background:white;
 
 }
