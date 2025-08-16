@@ -1,6 +1,7 @@
 
 body{
     background: yellow;
+
     /* margin:0 auto; */
 }
 .toparea{
@@ -66,9 +67,11 @@ body{
 /* .{
     border:3px solid black;
 } */
+
 .menuarea{
     /* background:red; */
 }
+
 .menuarea .navbar{
     width:100%;
     font-weight: bold;
@@ -113,7 +116,11 @@ body{
     text-align:center;
 }
 
-/*                                              BOXAREA */
+                                /*                                              BOXAREA */
+
+.animatioarea{
+    background:#FAA630;
+}
 .boxarea{
     background:red;
     padding:40px;
