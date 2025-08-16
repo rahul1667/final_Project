@@ -9,7 +9,7 @@ body{
 
 }
 .toparea img .logo2{
-    width: 240px;;
+    width:100%;
     height:82px;
 }
 .img1{
@@ -153,6 +153,7 @@ body{
     margin:10px;
 }
 .videoarea{
+    padding:15px;
     background:white;
     text-align: justify;
     width:100%;
