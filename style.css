@@ -1,6 +1,6 @@
 
 body{
-    background: yellow;
+    background: yellow !important;
 
     /* margin:0 auto; */
 }
@@ -106,15 +106,17 @@ body{
     border:2px solid black;
     width:100%;
     position:relative;
-    transition:all 2s;
+    /* transition:all 2s; */
 }
 .slidearea .slide_Image_text .box3 {
     background:black;
     color:white;
     position:absolute;
-    top:5%;
+    left:35%;
+    top:20%;
     text-align:center;
 }
+
 
                                 /*                                              BOXAREA */
 
@@ -148,17 +150,18 @@ body{
 
 .imgarea{
     width:100%;
-    background:pink;
+    background:#FAA630;
+
 
 }
 
 .longimg{
     width:100%;
-    background:yellow;
+    background:#FAA630;
 }
 .imgarea img{
     width:100%;
-    margin:10px;
+    margin-left:5px;
 }
 .videoarea{
     padding:15px;
