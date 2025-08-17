@@ -125,7 +125,7 @@ body{
     overflow: hidden;
 }
 .boxarea{
-    background:red;
+    background:#940404;
     padding:40px;
 }
 .box1 h5 , .box1 p{
@@ -136,7 +136,7 @@ body{
 }
 
 .boxarea h4{
-    background:yellow;
+    background:#F4A30E;
     padding:30px 70px;
     text-align: center;
     /* margin:10px; */
@@ -259,7 +259,7 @@ body{
     text-align: center;
     position: relative;
 }
-.footerarea h3:before ,.footerarea h3 :after{
+/* .footerarea h3:before ,.footerarea h3 :after{
     position:absolute;
     top:0%;
     width:45%;
@@ -277,7 +277,7 @@ body{
 .footerarea h3:after{
     right:10%;
     
-}
+} */
 
 
 
@@ -298,10 +298,21 @@ body{
     text-decoration:none;
     color:#FFB758;
 }
-.footerarea .abs ul li a:hover{
-    transform:translate(50px ,0);
-
+/* .footerarea .abs{
+    width:auto;
+ } 
+.footerarea .abs li a{
+    width:100%;
+    height:100%;
+    background:red;
+    transition: all 2s;
 }
+.footerarea .abs ul li a:hover{
+    transform:translateX(10px) !important;
+transform:scale(10.2,10.2);
+    color:yellow;
+
+} */
 
 .logodiv i{
     /* width:40px; */
