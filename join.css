@@ -1,0 +1,53 @@
+#bodyarea{
+    width:100%;
+    height:800px;
+    background:#FCCF94;
+    margin:0 auto;
+}
+#bodyarea #boxarea{
+    width:800px;
+    height:100px;
+    background: black;
+    margin-left:400px;
+    color:white;
+}
+#bodyarea #boxarea h2 {
+    font-size: 28px;
+}
+
+
+#bodyarea #boxarea p,h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bodyarea #boxarea a{
+    color:#F09116;
+    text-decoration: none;
+}
+#bodyarea  #textarea {
+    width:1000px;
+    height:200px;
+    /* border:2px solid red; */
+    margin-top:100px;
+    margin-left:200px;
+    text-align: justify;
+}
+#bodyarea  #textarea p{
+    gap:5px;
+}
+#bodyarea  #textarea a{
+    background: #800000;
+    width:120px;
+    height:60px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#bodyarea  #textarea a:hover{
+    border:1px solid blue;
+}
+
