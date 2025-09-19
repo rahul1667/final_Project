@@ -1,0 +1,40 @@
+#bodyarea{
+    width:100%;
+    height:700px;
+    background:#FCCF94;
+    margin:0 auto;
+}
+#bodyarea #boxarea{
+    width:800px;
+    height:100px;
+    background: black;
+    margin-left:400px;
+    color:white;
+    margin-top:30px;
+}
+#bodyarea #boxarea h2 {
+    font-size: 28px;
+}
+
+
+#bodyarea #boxarea h2 ,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bodyarea #boxarea h2 ,a{
+    color:#F09116;
+    text-decoration: none;
+}
+#bodyarea #list{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top:70px;
+
+}
+#bodyarea #list ul li{
+    margin-top:7px;
+}
+
+
